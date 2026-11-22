@@ -2,8 +2,8 @@ package com.bullseyedevs.tableview.util;
 
 import android.content.Context;
 import android.graphics.PointF;
-import android.support.v7.widget.LinearSmoothScroller;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearSmoothScroller;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.SparseArray;
@@ -15,7 +15,7 @@ import java.util.HashSet;
 import java.util.List;
 
 /**
- * A {@link android.support.v7.widget.RecyclerView.LayoutManager} implementation
+ * A {@link androidx.recyclerview.widget.RecyclerView.LayoutManager} implementation
  * that places children in a two-dimensional grid, sized to a fixed column count
  * value. User scrolling is possible in both horizontal and vertical directions
  * to view the data set.
